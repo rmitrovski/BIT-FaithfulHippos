@@ -6,7 +6,7 @@
     <meta name="author" content = "FaithfulHippos">
     <meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8">
     <link rel="stylesheet" href="css_nav.css" type='text/css'>
-    <script src="file_js.js"></script>
+
 </head>
 <body>
 
@@ -15,3 +15,34 @@
 <a href="index.html">Home</a>
 <a href="about.html">About Us</a>
 <a href="menu.html">Menu</a>
+<a href="contact_us.html">Contact Us</a>
+ </div>
+ 
+ <br> <p>We can be contact by:<br>
+	  Email: s3901069@student.rmit.edu.au <br> 
+	  Phone: Make up phone number here <br>
+	
+	
+<form method="post" action="s3901069@student.rmit.edu.au">
+	<label for="fname">First name:</label><br>
+	<input type="text" required id="fname" name="fname" placeholder="Please enter your name here" {0-9}><br>
+	<label for="lname">Last name:</label><br>
+	<input type="text" required id="lname" name="lname" placeholder="Please enter your last name here"><br><br>
+	<label for "email">Please enter your email address here</label><br>
+	<input type="email" required id="email" name="email" placeholder="Please enter your email here"><br>
+	<label for "phone_number">Please enter your phone number here</label><br>
+	<input type="tel" required id="phone" name="phone" placeholder="Enter your phone number"
+       pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}">
+	   <small>Format: 1234-567-890</small> <br><br>
+	  	<label for="subject_topic">Subject Name:</label><br>
+	<input type="text" required id="subject_topic" name="subject_topic" placeholder="Please enter topic information" {0-9}><br><br>
+    <label for="contacted">How would you like to be contacted</label>
+    <select id="contacted" required name="contacted"> 
+      <option value="Email">Email</option>
+      <option value="Phone Number">Phone Number</option>
+    </select> <br>
+<br>
+    <label for="subject">Your enquiry:</label><br>
+    <textarea id="subject" required name="subject" placeholder="Write something.." style="width: 815px; height: 59px;"></textarea>
+<br>
+    <input type="submit" value="Submit">
