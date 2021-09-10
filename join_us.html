@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+
+    <title>Bootstrap 4 Responsive Layout Example</title>
+</head>
+
+<body>
+
+
+      
+
+    <!-- add jQuery and Bootstrap JS necessary CDNs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./javascript/jquery.js"></script>
+
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+       
+	   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">
+      
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Join us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </nav>
+
+  
+   <div class="jumbotron text-center">
+    <h1>The Sweet Corner</h1>
+    <p>The best sweets in Melbourne!</p> 
+  </div>
+
+  
+    
+  <div class="container">
+      <div class="col-large-4">
+        <h3>Join THE SWEET CORNER Today!</h3>
+        <p>JOIN US to recieve exclusive discounts and more!</p>
+        <p>Thats right! at The Sweet Corner we offer discounts to our members often and to start you off! You will recieve a free pack of 4 cupcakes for you 
+		<br>and your family to share, of your choice after you sign up!* There is a lot of fun waiting for you just around the corner!. Our Cakes are made
+		<br> with passion by people who know what people want from their sweets, crafted to perfection. 
+		<br>
+		<br><small>*Conditions apply - The free pack of 4 cupcakes are from a selection </small>
+		<br>
+		<br>
+		<br>
+		</div>
+	<!-- Button trigger modal -->
+
+
+					<!-- Modal -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+			<div class="modal fade" id="myModal">
+			 <div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">	<h1>Register Page</h1>
+				</div>
+			
+		
+				<div class="modal-body">
+				<p><!-- registration form -->
+    <form id="registration_form" onsubmit="return checkForm()" method="post" action=""> <!--Form that the user needs to enter to register-->
+        <div><span class="label">First Name:</span><input name="firstname" type="text" value="" id="firstname"/></div>
+    
+        <div class="error" id="firstnameError">Required: Please enter your first name</div>
+            <br>
+      <div><span class="label">Surname:</span><input name="surname" type="text" value="" id="surname"/></div>
+        <div class="error" id="surnameError">Required: Please enter your surname</div>
+                <br>
+      <div><span class="label">Email:</span><input name="email" type="text" value="" id="email"/></div>
+        <div class="error" id="emailError"> Required: Please enter a valid email</div>
+     <br>
+        <div><span class="label">Re-enter your email:</span><input name="email_confirm" type="text" value="" id="email_confirm" ></div>
+        <div class="error" id="emailError_confirm"> Required: Please enter a valid email</div>
+        <div class="error_not_same" id="error_not_same">Please make sure you enter the same email address twice.</div>
+               <br>
+        <div><span class="label">Phone Number:</span><input name="phone" type="text" value="" id="phone"/></div>
+        <div class="error" id="phoneError">Required: Please enter a valid phone number (61+ 4xx xxx xxx)</div>
+<br>
+        </p></div>
+				<div class="modal-footer">
+        <input id="registration_submit" type="submit" value="Submit" class="btn btn-primary" data-dismiss="modal">
+		   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	
+		</form>
+			</div>
+			</div>
+		</div>
+</div>		
+	
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#myModal">
+			Sign up now!
+			</button>		
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+						  <div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  <span aria-hidden="true">&times;</span>
+							</button>
+						  </div>
+						  <div class="modal-body">
+							...
+						  </div>
+						  <div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  <nav class="navbar navbar-expand-sm bg-light">  -->
+    
+
+ 
+
+
+
+
+
+
+
+
+    </body>
+	</html>
